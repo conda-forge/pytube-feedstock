@@ -1,5 +1,5 @@
 {% set name = "pytube" %}
-{% set version = "11.0.1" %}
+{% set version = "11.0.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytube-{{ version }}.tar.gz
-  sha256: 47643a6ff553cbc4d6be748ff14c9c45f79984e15005adff25d62b18110abe43
+  sha256: 21d2d151e6525f9f79401ae7a74a7de1e2bb1c00ede5d77c89e22d496389c5f1
 
 build:
   number: 0
@@ -39,11 +39,11 @@ about:
   license: Unlicense
   license_family: Other
   license_file: LICENSE
-  summary: 'A lightweight, dependency-free Python library (and command-line utility) for downloading YouTube Videos.'
+  summary: A lightweight, dependency-free Python library (and command-line utility) for downloading YouTube Videos.
   description: |
     pytube is a very serious, lightweight, dependency-free Python library
     (and command-line utility) for downloading YouTube Videos.
-  doc_url: https://pytube.io 
+  doc_url: https://pytube.io
   dev_url: https://github.com/pytube/pytube
 
 extra:
