@@ -1,5 +1,5 @@
 {% set name = "pytube" %}
-{% set version = "11.0.2" %}
+{% set version = "12.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytube-{{ version }}.tar.gz
-  sha256: 21d2d151e6525f9f79401ae7a74a7de1e2bb1c00ede5d77c89e22d496389c5f1
+  sha256: 422a9c2e1d35521f00c692b59c18edbaf2c1e12197bd36745bf00a26875674db
 
 build:
   number: 0
