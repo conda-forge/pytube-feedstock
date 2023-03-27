@@ -1,11 +1,11 @@
-About pytube
-============
+About pytube-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytube-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pytube.io/
 
 Package license: Unlicense
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pytube-feedstock/blob/main/LICENSE.txt)
 
 Summary: A lightweight, dependency-free Python library (and command-line utility) for downloading YouTube Videos.
 
