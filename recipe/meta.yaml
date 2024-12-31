@@ -7,11 +7,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytube-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pytube-{{ version }}.tar.gz
   sha256: 076052efe76f390dfa24b1194ff821d4e86c17d41cb5562f3a276a8bcbfc9d1d
 
 build:
-  number: 0
+  number: 1
   noarch: python
   entry_points:
     - pytube = pytube.cli:main
@@ -20,9 +20,10 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
+    - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
   imports:
@@ -33,6 +34,7 @@ test:
     - pytube --help
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://pytube.io/
